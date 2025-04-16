@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">QuizApplication</string>
+    <string name="select_department">Select Department</string>
+    <string name="select_semester">Select Semester</string>
+    <string name="select_subject">Select Subject</string>
+    <string name="hey_there_you_did_amazing_in_java_but_you_need_to_focus_more_on_maths" />
+    <string name="welcome_back_devi" />
+    <string name="this_is_bg_image" />
+    <string-array name="create_quiz_options_for_teachers">
+        <item>Math</item>
+        <item>Science</item>
+        <item>History</item>
+        <item>Geography</item>
+    </string-array>
+    <string-array name="user_roles">
+        <item>Admin</item>
+        <item>Teacher</item>
+        <item>Student</item>
+    </string-array>
+
+</resources>

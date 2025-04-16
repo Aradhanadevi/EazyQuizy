@@ -1,0 +1,101 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/wallpaper4"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <!-- Department Button -->
+        <Button
+            android:id="@+id/button_department"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@color/blue"
+            android:drawableEnd="@drawable/arrow_drop_down_24"
+            android:gravity="center_vertical|start"
+            android:padding="16dp"
+            android:shadowColor="@color/white"
+            android:text="Choose Department"
+            android:textSize="18sp" />
+
+        <!-- Semester Button -->
+        <Button
+            android:id="@+id/button_semester"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Choose Semester"
+            android:textSize="18sp"
+            android:background="#D3D3D3"
+            android:drawableEnd="@drawable/arrow_drop_down_24"
+            android:gravity="center_vertical|start"
+            android:padding="16dp"
+            android:visibility="gone" />
+
+        <!-- Subject Button -->
+        <Button
+            android:id="@+id/button_subject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Choose Subject"
+            android:textSize="18sp"
+            android:background="#D3D3D3"
+            android:drawableEnd="@drawable/arrow_drop_down_24"
+            android:gravity="center_vertical|start"
+            android:padding="16dp"
+            android:visibility="gone" />
+
+        <!-- Chapter Button -->
+        <Button
+            android:id="@+id/button_chapter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Choose Chapter"
+            android:textSize="18sp"
+            android:background="#D3D3D3"
+            android:drawableEnd="@drawable/arrow_drop_down_24"
+            android:gravity="center_vertical|start"
+            android:padding="16dp"
+            android:visibility="gone" />
+
+        <!-- Next Button -->
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:background="@drawable/edt_bg"
+            android:drawableEnd="@drawable/baseline_arrow_right_24"
+            android:textColor="@color/white"
+            android:layout_marginTop="24dp"
+            android:visibility="gone" />
+
+
+    </LinearLayout>
+    <Button
+        android:layout_width="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:text="Create Quiz"
+        android:id="@+id/createQuizRedirectBtn"
+        android:layout_below="@+id/btn_next"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:layout_marginTop="150dp"
+
+        />
+</LinearLayout>
